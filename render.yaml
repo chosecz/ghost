@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: ghost
+  name: driftlife-ghost
   env: docker
   region: frankfurt
   disk:
