@@ -11,7 +11,16 @@
     }
   },
   "mail": {
-    "transport": "Direct"
+    "from": "driftlifecz@gmail.com",
+    "transport": "SMTP",
+    "options": {
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "auth": {
+            "user": "driftlifecz@gmail.com",
+            "pass": "maleVelkeHeslo19"
+        }
+    }
   },
   "logging": {
     "transports": [
